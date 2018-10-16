@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>登录界面</title>
+    </head>
+    <body>
+    <FORM METHOD="get" ACTION="./XX.php">
+  姓名：<INPUT TYPE="text" NAME="userName" size="50" maxlength="6" value="请输入账号/用户名"/><br>
+  密码：<INPUT TYPE="password" NAME="password" size="25" readonly="readonly" value="3333"/><br>
+  邮箱:<INPUT TYPE="text" NAME="aaa" disabled="true" value="xxx@qq.com"/><br>
+  性别：<input type="radio" name="sex" value="男"/>男
+      <input type="radio" name="sex" value="女"/>女<br>
+  爱好:<INPUT TYPE="checkbox" NAME="hobby" value="eat">吃
+       <INPUT TYPE="checkbox" NAME="hobby" value="drink">喝
+     <INPUT TYPE="checkbox" NAME="hobby" value="play">玩
+     <INPUT TYPE="checkbox" NAME="hobby" value="happy">乐<br>
+  城市: <SELECT NAME="city">
+      <OPTION VALUE="00">----请选择你的城市----</option>
+      <OPTION VALUE="01">北京</option>
+      <OPTION VALUE="02">上海</option>
+      <OPTION VALUE="03">天津</option>
+      <OPTION VALUE="04">南京</option>
+     </SELECT><br/>
+  隐藏域: <INPUT TYPE="hidden" NAME="a"/><br/>
+  文件域:<input type="file" name="fileName"/><br/>
+  普通按钮:<INPUT TYPE="button" VALUE="投票" ONCLICK="javascript:window.alert('您已投票成功！')"><br/>
+  图像按钮：（本质是提交按钮）<INPUT TYPE="image" SRC="ccc.jpg" value="提交"/><br/>
+  <input type="submit" value="提交"/>
+  </FORM>
+
+    </body>
+</html>
